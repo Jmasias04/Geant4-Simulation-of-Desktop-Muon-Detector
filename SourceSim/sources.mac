@@ -1,0 +1,37 @@
+#THS SHOULD GO IN THE BUILD FILE
+
+/gps/verbose 0
+/tracking/verbose 0
+#
+# commands below are independent of gps
+#
+/run/printProgress 100000
+#
+/run/initialize
+#
+/gps/particle ion
+# set ion: Atomic Number and Weight (i.e., "38 90" for Sr90, "55 137" for Cs137, etc.)
+/gps/ion 38 90
+#
+# Cylindrical source
+/gps/pos/type Surface
+/gps/pos/shape Cylinder
+/gps/pos/radius 1.1  cm
+/gps/pos/halfz 2.9 mm
+#
+# angular distribution
+#/gps/ang/type iso
+#/gps/ang/mintheta 0. deg
+#/gps/ang/maxtheta 180. deg
+#/gps/ang/minphi -90. deg
+#/gps/ang/maxphi 90. deg
+#
+# energy distribution
+/gps/ene/type Mono
+/gps/ene/mono 0.0 MeV
+#/gps/direction -1. 0. 0. 
+#
+/gps/pos/centre 0. 0. 5. cm
+#
+#Number of run events:
+/run/beamOn 1000
