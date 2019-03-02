@@ -40,6 +40,7 @@ target_link_libraries(dEdxsim ${Geant4_LIBRARIES} ${HBOOK_LIBRARIES})
 # relies on these scripts being in the current working directory.
 #
 set(dEdxsim_SCRIPTS
+init_vis.mac
  vis.mac
   )
 
