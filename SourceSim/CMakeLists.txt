@@ -43,6 +43,7 @@ set(SourceSim_SCRIPTS
     SourceSim.out
     SourceSim.in
     optPhoton.mac
+    sources.mac
     gui.mac
     vis.mac
   )
