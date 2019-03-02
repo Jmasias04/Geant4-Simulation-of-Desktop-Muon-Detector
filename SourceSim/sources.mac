@@ -10,7 +10,7 @@
 /run/initialize
 #
 /gps/particle ion
-# set ion: Atomic Number and Weight (i.e., "38 90" for Sr90, "55 137" for Cs137, etc.)
+# set ion: Atomic Number and Weight (e.g., "38 90" for Sr90, "55 137" for Cs137, etc.)
 /gps/ion 38 90
 #
 # Cylindrical source
